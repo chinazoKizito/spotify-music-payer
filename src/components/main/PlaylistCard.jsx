@@ -2,6 +2,11 @@ import React,  {useState} from 'react'
 import styles from './mainPage.module.css'
 
 
+const clientID = process.env.REACT_APP_SPOTIFY_ID
+const secret = process.env.REACT_APP_SPOTIFY_SECRET
+const redirectURI = process.env.REACT_APP_REDIRECT_URI
+
+
 
 function PlaylistCard() {
     const [songDetails, setSongDetails]  = useState([
@@ -65,6 +70,7 @@ function PlaylistCard() {
             <span>{item.album}</span>
         </div>
         ))}
+        {console.log(secret, clientID , redirectURI)}
     </div>
   )
 }
