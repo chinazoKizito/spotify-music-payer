@@ -98,7 +98,6 @@ function PlaylistCard({item}) {
         </div>
         </a>
         ))}
-        {console.log(tracks, item)}
     </div>
   )
 }
