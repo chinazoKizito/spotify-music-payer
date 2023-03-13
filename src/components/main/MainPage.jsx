@@ -1,16 +1,27 @@
-import React from 'react'
+import React,  {useState} from 'react'
 import TrendingCard from './TrendingCard'
 import PlaylistCard from './PlaylistCard'
 import MusicPlayerCard from './MusicPlayerCard'
 import styles from './mainPage.module.css'
 import SearchComponent from './SearchComponent'
 
+
+
+
+
+
+
 function MainPage() {
-  return (
+  const [searchItem, setSearchItem] = useState('')
+
+  
+
+
+      return (
     <div className={styles.mainContainer}>
-        <SearchComponent/>
+        <SearchComponent handleSearch={setSearchItem}/>
         <TrendingCard/>
-        <PlaylistCard/>
+        <PlaylistCard item={searchItem}/>
         <MusicPlayerCard/>
     </div>
   )

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import ApiRequest from "./components/ApiRequest";
+
 import AppContainer from "./components/AppContainer";
 import MainPage from "./components/main/MainPage";
 import Navbar from "./components/navbar/Navbar";
