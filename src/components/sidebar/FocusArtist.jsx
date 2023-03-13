@@ -6,12 +6,12 @@ import {MdAdd} from 'react-icons/md'
 const cardStyles = {
     backgroundColor: 'White',
     borderRadius: '10px',
-    height : '150px',
-    width : '150px',
+    height : '160px',
+    width : '170px',
     padding : '15px 15px',
     alignItems: 'center',
     marginBottom: '20px',
-    marginTop: '15px'
+    marginTop: '13px'
 }
 
 const imgStyles = {

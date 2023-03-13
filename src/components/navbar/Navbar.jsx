@@ -68,7 +68,7 @@ const section3 =  [
 ]
 
 
-function Navbar() {
+function Navbar({signout}) {
   return (
     <div className={styles.navbarStyles}>
       <h1 className={styles.spotify}><RiSpotifyLine className={styles.spotifyE}/> Spotify Music</h1>
@@ -83,7 +83,7 @@ function Navbar() {
         <p style={sectionHeadStyles}>Your Collection</p>
         {section3.map((item, index) => (<NavbarPill key={index}  Img={item.icon} text={item.name}/>))}
       </section>
-      <UserPill/>
+      <UserPill signOut={signout}/>
     </div>
   )
 }
