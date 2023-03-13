@@ -7,7 +7,7 @@ const cardStyles = {
     backgroundColor: 'White',
     borderRadius: '10px',
     height : '180px',
-    width : '180px',
+    width : '150px',
     padding : '15px 15px',
     alignItems: 'center',
     marginBottom: '20px',
@@ -16,7 +16,7 @@ const cardStyles = {
 
 const imgStyles = {
     borderRadius: '10px',
-    height : '100px',
+    height : '120px',
     width : '150px'
 }
 
