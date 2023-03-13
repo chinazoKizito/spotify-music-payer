@@ -6,8 +6,8 @@ import {MdAdd} from 'react-icons/md'
 const cardStyles = {
     backgroundColor: 'White',
     borderRadius: '10px',
-    height : '160px',
-    width : '170px',
+    height : '180px',
+    width : '180px',
     padding : '15px 15px',
     alignItems: 'center',
     marginBottom: '20px',
